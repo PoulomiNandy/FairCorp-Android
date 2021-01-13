@@ -52,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:text="Window 1"
+        android:text="Text View"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView10"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="39dp"
         android:layout_marginBottom="39dp"
-        android:text="OPEN"
+        android:text="Text View"
         app:layout_constraintBottom_toTopOf="@+id/textView13"
         app:layout_constraintStart_toEndOf="@+id/textView9" />
 
@@ -71,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="37dp"
-        android:text="Room2"
+        android:text="Text View"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView10"
         app:layout_constraintStart_toEndOf="@+id/textView10" />
 
@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="39dp"
-        android:text="-9"
+        android:text="Text View"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView11" />
 
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="29dp"
         android:layout_marginBottom="312dp"
-        android:text="-8"
+        android:text="Text View"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
