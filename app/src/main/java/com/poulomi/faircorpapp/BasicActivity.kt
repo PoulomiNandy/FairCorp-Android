@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 open class BasicActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater: MenuInflater = menuInflater
-        inflater.inflate(R.menu.menu, menu)
+        inflater.inflate(R.menu.menu, menu)  // we have designed our menu
         return true
     }
 

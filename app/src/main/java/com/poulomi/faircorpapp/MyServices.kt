@@ -21,7 +21,7 @@ class MyServices : AppCompatActivity() {
 
 
         btn_id_windows.setOnClickListener{
-            var url:String="https://app-2486da62-82f9-4a1f-b5c1-1cb4c65491c5.cleverapps.io/api/windows/"+editText2.text.toString()
+            var url:String="https://app-2486da62-82f9-4a1f-b5c1-1cb4c65491c5.cleverapps.io/api/windows/"+editText2.text.toString() //dynamic id input
             var rq: RequestQueue= Volley.newRequestQueue(this)
             val jor = JsonObjectRequest(Request.Method.GET, url, null, Response.Listener {response ->
                 textView13.text=response.getString("id")
@@ -31,7 +31,7 @@ class MyServices : AppCompatActivity() {
                 textView12.text=response.getString("roomId")
             }
             , Response.ErrorListener { error ->
-                    error.printStackTrace()
+                    error.printStackTrace()   // error handling
                 })
             rq.add(jor)
         }

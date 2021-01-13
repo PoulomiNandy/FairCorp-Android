@@ -21,7 +21,7 @@ class MainActivity : BasicActivity () {
         val windowName = findViewById<EditText>(R.id.txt_window_name).text.toString()
         // Display a message
         //Toast.makeText(this, "You choose $windowName", Toast.LENGTH_LONG).show()
-        val intent = Intent(this, WindowActivity::class.java).apply {
+        val intent = Intent(this, WindowActivity::class.java).apply {                 //this line help us to go to the new activity
             putExtra(WINDOW_NAME_PARAM, windowName)
         }
         startActivity(intent)
