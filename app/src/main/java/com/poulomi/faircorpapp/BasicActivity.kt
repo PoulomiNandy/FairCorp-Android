@@ -25,6 +25,9 @@ open class BasicActivity : AppCompatActivity() {
             R.id.menu_email -> startActivity(
                 Intent(Intent.ACTION_SENDTO, Uri.parse("mailto://guillaume@dev-mind.fr"))
             )
+            R.id.menu_service -> startActivity(
+                Intent(this, MyServices::class.java)
+            )
 
         }
         return super.onContextItemSelected(item)
